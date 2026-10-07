@@ -65,7 +65,7 @@ namespace Lab1 {
           fLeft = fMiddle;
         }
 
-        counter++;
+        ++counter;
       }
 
       root = (left + right) / 2.0;

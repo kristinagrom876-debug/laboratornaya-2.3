@@ -224,8 +224,10 @@ namespace Lab1 {
       }
 
       if (hasResult) {
-        float px = toX(currentRoot);
-        float py = toY(0);
+        float px;
+        float py;
+        px = toX(currentRoot);
+        py = toY(0);
 
         g.FillEllipse(Brushes.Red, px - 5, py - 5, 10, 10);
 
